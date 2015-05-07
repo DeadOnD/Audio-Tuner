@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!-- API 11 theme customizations can go here. -->
+      <item name="android:windowBackground">@color/light_green</item>
+      <item name="android:textColorHighlight">#EEFF41</item>
+      <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+    
+        <style name="CustTheme" parent="AppBaseTheme">
+      <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+   		     <item name="android:windowBackground">@color/light_green</item>
+   		     <item name="android:textColor">@color/blue</item>
+   		      <item name="android:textColorHint">@color/blue</item>
+   		      <item name="android:actionBarStyle">@style/MyActionBar</item>       
+    </style>
+    
+     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/super_dark_green</item>
+    </style>
+
+</resources>
